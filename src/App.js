@@ -74,7 +74,7 @@ function App() {
             <inputField
             label = 'Voornaam:'
             inputType = 'text'
-            name = 'voornaam'
+            name = "voornaam"
             value = {formState.voornaam}
             changeHandler = {handleChange}
             />
