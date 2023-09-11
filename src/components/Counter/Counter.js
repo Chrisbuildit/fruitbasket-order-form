@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 
 function Counter({counter,setCounter}) {
 
@@ -14,7 +14,6 @@ function Counter({counter,setCounter}) {
             <button
                 type = "button"
                 onClick={() => setCounter(counter + 1)}
-                disabled = {counter === 0}
             >+
             </button>
         </>
